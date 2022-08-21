@@ -1,7 +1,8 @@
 /**
  * MARQUEE 3000 MARQUEE 3000 MARQUEE 3000 MARQUEE 3000 MARQUEE 3000
  * http://github.com/ezekielaquino/marquee3000
- * Marquees for the new millennium v1.0
+ * Marquees for the new millennium v1.1.X
+ * Latest commit a4dbbca on 16 May 2022
  * MIT License
  */
 
