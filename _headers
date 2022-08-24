@@ -5,3 +5,15 @@
 
 https://cdn-host.pages.dev/*
   X-Robots-Tag: noindex
+
+https://cdn.hype.studio/*
+  X-Robots-Tag: noindex
+
+https://cdn.hype-group.com/*
+  X-Robots-Tag: noindex
+
+https://cdn-host.hype.studio/*
+  X-Robots-Tag: noindex
+
+https://cdn-host.hype-group.com/*
+  X-Robots-Tag: noindex
