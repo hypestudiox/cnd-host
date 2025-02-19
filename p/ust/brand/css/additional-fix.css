@@ -1,0 +1,27 @@
+/* Additional Fix */
+
+@media screen and (max-width: 991px) {
+  figure.w-richtext-align-normal.w-richtext-figure-type-image {
+    max-width: 100%;
+  }
+}
+
+/* 2023-09 Fixes */
+@media screen and (max-width: 991px) {
+  .h-rt-standard.blue {
+    color: #fff;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h-hh1-page-title.h-white-text {
+    font-size: 38px !important;
+  }
+  .h-item-block {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 479px) {
+  .h-hh1-page-title.h-white-text {
+    font-size: 32px !important;
+  }
+}
