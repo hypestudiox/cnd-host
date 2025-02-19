@@ -2,9 +2,9 @@
 
 All files in the repo will be deployed to Cloudflare Pages instantly.
 
-URL:
+URL:<br>
 `https://cdn.hype.studio/`
 
-CDN:
-`https://cnd-host.pages.dev/`
+CDN:<br>
+`https://cnd-host.pages.dev/`<br>
 `https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/`
