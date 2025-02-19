@@ -1,0 +1,184 @@
+/* default print css */
+
+body {
+  page-break-before: avoid;
+  zoom: 75%;
+}
+* {
+  -webkit-print-color-adjust: exact !important;
+}
+a[href]:after {
+  content: none !important;
+}
+body .layout {
+  width: 100%;
+}
+
+/* custom print css by HYPE Studio */
+
+@page {
+  size: A4 portrait;
+  margin: 15mm 12mm 15mm 12mm;
+}
+html {
+  background-color: #fff;
+  margin: 0px 0px 0px 0px;
+}
+*,
+body {
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  print-color-adjust: exact !important;
+}
+body {
+  page-break-before: avoid !important;
+  zoom: 65% !important;
+  width: 100%;
+  min-width: 1620px;
+  font-size: 16px;
+  background-color: #fff !important;
+  margin: 0mm auto !important;
+  border: 0px solid #fff;
+}
+img {
+  break-inside: avoid !important;
+}
+.sliding-popup-bottom {
+  display: none !important;
+}
+.header-data-pc ul.menu-lists li a,
+.header-data-mobile ul.menu-lists li a {
+  font-size: 13px !important;
+}
+.header-data-pc ul.menu-lists li a {
+  padding: 9px 5px 9px 5px !important;
+}
+.h-page-wrap {
+  width: 100% !important;
+}
+.h-go-down-icon {
+  opacity: 0.5 !important;
+}
+.h-banner {
+  min-height: auto !important;
+}
+.h-banner-content {
+  min-height: 610px;
+  padding: 95px 0 45px 0;
+}
+.h-banner-img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.h-rt-standard {
+  line-height: 1.575em !important;
+}
+.h-side-menu-wrap {
+  width: 450px;
+  padding: 60px 60px 55px 25px;
+}
+.h-section {
+  margin: 50px 0;
+  padding: 35px 0 20px 0;
+}
+.h-section .h-max-w {
+  break-inside: avoid;
+}
+.h-section-inner {
+  break-inside: avoid !important;
+}
+.h-section-inner.spaced {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.h-next-deco {
+  opacity: 0.65 !important;
+  height: 50px !important;
+  margin-top: 10px !important;
+  border-top: 10px solid #960 !important;
+  background: none !important;
+  background-image: none !important;
+}
+.h-bar {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+.h-narrow {
+  max-width: 67.5%;
+}
+.h-rt-standard.narrow {
+  max-width: calc(100% - 30px);
+}
+.h-hh1-page-title {
+  font-size: 52px !important;
+  transform: scale(0.85);
+  transform-origin: top left;
+}
+.h-top {
+  display: none;
+}
+/* Pre-Foorter and Footer */
+.footer .caring,
+.footer .caring img {
+  height: auto;
+}
+.layout.footer-menu li span {
+  zoom: 0.85;
+}
+.layout.footer-menu,
+.footer {
+  break-inside: avoid !important;
+}
+/* Strip Deco */
+.h-stripe-deco-s1,
+.h-stripe-deco-s2 {
+  display: none !important;
+}
+/* Home */
+.h-banner-img.red-bird-image {
+  width: 100% !important;
+  height: 100% !important;
+}
+.h-section.with-bg {
+  padding: 70px 0 70px 0;
+}
+/* Our Brand */
+.h-stack-wrap {
+  height: auto;
+}
+.h-sticky-stack {
+  position: relative !important;
+  height: 760px;
+}
+.h-sticky-stack .h-go-down {
+  display: none;
+}
+.h-overlay-text {
+  top: 10%;
+}
+/* Our Voice */
+.h-banner-img.dome-window {
+  height: 700px !important;
+}
+.h-flex-h.gap.tight {
+  grid-row-gap: 10px !important;
+}
+.h-item-block.expression {
+  width: 15% !important;
+}
+.h-overlay-content {
+  text-shadow: none;
+}
+/* University Marks */
+article[data-history-node-id="63"] .h-section .h-max-w {
+  break-inside: auto !important;
+}
+/* Color Palette */
+article[data-history-node-id="69"] .h-section .h-max-w {
+  break-inside: auto !important;
+}
+/* Digital Materials */
+article[data-history-node-id="77"] .h-section .h-max-w,
+article[data-history-node-id="77"] .h-section-inner {
+  break-inside: auto !important;
+}
