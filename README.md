@@ -1,5 +1,10 @@
 # HYPE CDN
 
-All files in the repo will be deployed to Cloudflare Page instantly.
+All files in the repo will be deployed to Cloudflare Pages instantly.
 
-Domain: `https://cdn.hype.studio/`
+URL:
+`https://cdn.hype.studio/`
+
+CDN:
+`https://cnd-host.pages.dev/`
+`https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/`
