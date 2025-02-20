@@ -1,5 +1,6 @@
-/* Additional Fix */
+/* additional fix */
 
+/* normalize */
 @media screen and (max-width: 991px) {
   figure.w-richtext-align-normal.w-richtext-figure-type-image {
     max-width: 100%;
