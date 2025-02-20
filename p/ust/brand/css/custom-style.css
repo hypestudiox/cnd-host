@@ -583,19 +583,23 @@ ul, ol {
   z-index: 9;
   color: #fff;
   text-align: center;
+  cursor: pointer;
   width: 78px;
   margin: 0 auto;
   padding: 5px 0;
-  transition: all .2s;
+  transition: transform .2s;
+  display: block;
   position: absolute;
   inset: auto 0% 18px;
+  transform: translate(0);
 }
 
 .h-go-down:hover {
-  bottom: 12px;
+  transform: translate(0, 6px);
 }
 
 .h-go-down.bg-arrow {
+  opacity: .75;
   color: #0000;
   background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-down-section.svg');
   background-position: 50%;
@@ -606,6 +610,7 @@ ul, ol {
 }
 
 .h-go-down.bg-arrow:hover {
+  opacity: 1;
   color: #0000;
 }
 
@@ -935,6 +940,10 @@ ul, ol {
   width: auto;
 }
 
+.h-wrapper.auto-size.keep-size {
+  flex: none;
+}
+
 .h-wrapper.center {
   text-align: center;
 }
@@ -1153,7 +1162,7 @@ ul, ol {
 }
 
 .h-img.taller.more-x2 {
-  width: 500px;
+  width: 480px;
   max-height: 320px;
 }
 
@@ -1838,6 +1847,16 @@ ul, ol {
   background-size: .75em;
   padding-left: 28px;
   text-decoration: none;
+}
+
+.hide-this {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.show-this {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 @media screen and (max-width: 991px) {

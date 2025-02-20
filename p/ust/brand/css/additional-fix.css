@@ -7,7 +7,7 @@
   }
 }
 
-/* main nav */
+/* main menu */
 .sub-menu a.has-sub-menu { position: relative; }
 .sub-menu a.has-sub-menu:after {
   content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="8" viewBox="0 0 6 8" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.79293 4.00004L0.646484 0.853591L1.35359 0.146484L5.20714 4.00004L1.35359 7.85359L0.646484 7.14648L3.79293 4.00004Z" fill="%23003366"/></svg>');
@@ -20,26 +20,8 @@
   min-width: 120px;
 }
 
-/* others */
+/* language switcher */
 .switch-language {}
-div.menu-top { display: none !important; }
 
-/* 2023-09 Fixes */
-@media screen and (max-width: 991px) {
-  .h-rt-standard.blue {
-    color: #fff;
-  }
-}
-@media screen and (max-width: 767px) {
-  .h-hh1-page-title.h-white-text {
-    font-size: 38px !important;
-  }
-  .h-item-block {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 479px) {
-  .h-hh1-page-title.h-white-text {
-    font-size: 32px !important;
-  }
-}
+/* others */
+div.menu-top { display: none !important; }

@@ -1,0 +1,13 @@
+/* import */
+
+@import url("https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/p/ust/brand/css/components.min.css");
+@import url("https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/p/ust/brand/css/custom-style.min.css");
+@import url("https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/p/ust/brand/css/additional-fix.min.css");
+@import url("https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/p/ust/brand/css/force-override.min.css");
+@import url("https://cdn.jsdelivr.net/gh/hypestudiox/cnd-host/p/ust/brand/css/print-fix.min.css") print;
+
+/* other styles */
+
+.school-name {
+	display: none !important;
+}
