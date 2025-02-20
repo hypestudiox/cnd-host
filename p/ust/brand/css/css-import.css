@@ -11,3 +11,8 @@
 .school-name {
 	display: none !important;
 }
+
+.h-go-down {
+  -webkit-transition: all 0.2s ease !important;
+  transition: all 0.2s ease !important;
+}
