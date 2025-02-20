@@ -179,7 +179,7 @@ ul, ol {
   opacity: 1;
   color: #fff;
   letter-spacing: .025em;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-down-arrow.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-down-arrow.svg');
   background-position: 98%;
   background-repeat: no-repeat;
   background-size: 14px;
@@ -200,7 +200,7 @@ ul, ol {
 .h-side-menu-link:hover {
   color: var(--ust--blue);
   background-color: #fff;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-down-arrow-blue.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-down-arrow-blue.svg');
   text-decoration: none;
 }
 
@@ -262,7 +262,7 @@ ul, ol {
 
 .h-banner-bg.light-blue {
   background-color: var(--accent--light-blue);
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/background-noise.png'), linear-gradient(200deg, #00336680, #0000);
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/background-noise.png'), linear-gradient(200deg, #00336680, #0000);
   background-position: 0 0, 0 0;
   background-size: auto, auto;
 }
@@ -601,7 +601,7 @@ ul, ol {
 .h-go-down.bg-arrow {
   opacity: .75;
   color: #0000;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-down-section.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-down-section.svg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 95%;
@@ -676,7 +676,7 @@ ul, ol {
 
 .h-stripe-deco-s0 {
   opacity: .2;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/Brand-Stripe.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/Brand-Stripe.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -688,7 +688,7 @@ ul, ol {
 }
 
 .h-stripe-deco-s1 {
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/Brand-Stripe.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/Brand-Stripe.svg');
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -703,7 +703,7 @@ ul, ol {
 
 .h-stripe-deco-s2 {
   opacity: .95;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/Brand-Stripe-h.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/Brand-Stripe-h.svg');
   background-position: 0%;
   background-repeat: repeat-x;
   background-size: contain;
@@ -956,7 +956,7 @@ ul, ol {
 
 .h-wrapper.blue-box {
   background-color: #0074bc0d;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/background-noise.png'), linear-gradient(#fff3, #fff3);
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/background-noise.png'), linear-gradient(#fff3, #fff3);
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   border-radius: 20px;
@@ -1108,7 +1108,7 @@ ul, ol {
 .h-wrong {
   color: var(--accent--red);
   text-align: left;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/wrong-red-w.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/wrong-red-w.svg');
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: 32px 32px;
@@ -1532,6 +1532,7 @@ ul, ol {
   padding: 1.25rem .8rem;
   font-size: 16px;
   line-height: 1.25em;
+  display: block;
 }
 
 .notes-rt {
@@ -1563,6 +1564,7 @@ ul, ol {
   -webkit-user-select: auto;
   user-select: auto;
   flex: 1;
+  min-height: 180px;
   margin: 0;
   padding: 0;
   display: block;
@@ -1736,7 +1738,7 @@ ul, ol {
   border-left-color: var(--accent--light-blue);
   background-color: var(--ust--blue);
   color: #fff;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-go-arrow.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-go-arrow.svg');
   background-position: calc(100% - 12px);
   background-repeat: no-repeat;
   background-size: 9px;
@@ -1779,7 +1781,7 @@ ul, ol {
   border-left-color: var(--accent--light-blue);
   color: var(--ust--blue);
   background-color: #fff;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-go-arrow-blue.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-go-arrow-blue.svg');
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 41px;
@@ -1802,7 +1804,7 @@ ul, ol {
   border-left-color: var(--accent--light-blue);
   color: var(--ust--blue);
   background-color: #fff;
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/h-go-arrow-blue.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/h-go-arrow-blue.svg');
   padding-top: 18px;
   padding-bottom: 18px;
   padding-right: 41px;
@@ -1841,7 +1843,7 @@ ul, ol {
 }
 
 .h-download-go.text-link {
-  background-image: url('https://cnd-host.pages.dev/p/ust/brand/images/download.svg');
+  background-image: url('https://cnd-hype.pages.dev/p/ust/brand/images/download.svg');
   background-position: 12px;
   background-repeat: no-repeat;
   background-size: .75em;
