@@ -2,6 +2,11 @@
 /* -- Force Override: General -- */
 /* ----------------------------- */
 
+.h-go-down {
+  -webkit-transition: all 0.2s ease !important;
+  transition: all 0.2s ease !important;
+}
+
 .h-side-menu-link {
   display: -webkit-box !important;
   display: -webkit-flex !important;
